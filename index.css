@@ -1,0 +1,122 @@
+body {
+    background: #263238;    
+}
+
+.parentTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridTop{
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+}
+
+.lightBackground {
+    background-color: 00FFFF
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+    color: white;
+}
+
+.cross {
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 100px;
+}
+.cross.times {
+    color: #3989d4;
+}
+.cross.circle {
+    color: #39bcd4;
+}
+
+.boxBorderRight {
+    border-right: 3px solid #e7e7e7;
+}
+.boxBorderBottom {
+    border-bottom: 3px solid #e7e7e7;
+}
+
+.winnerBox {
+    background-color: #ffff6f;
+}
+
+.gameEndScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.playBtn,
+.resetBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(38, 50, 56, 0.5);
+}
+
+.playBtn:hover,
+.resetBtn:hover {
+    background-color: darkcyan;
+}
+
+.winnerText {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
